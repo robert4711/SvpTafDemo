@@ -11,7 +11,7 @@ Exempel på en TestInitialize för TAF för att köra mot Browserstack:
         public void Init()
         {
             const string cPath = @"c:\temp";
-            const string cParams = "--key BbpSXC2vy8svqwCZrzry";
+            const string cParams = "--key DIN BROWSERSTACK-KEY";
             var filename = Path.Combine(cPath, "BrowserStackLocal.exe");
             Process.Start(filename, cParams);
             var capability = new DesiredCapabilities();
